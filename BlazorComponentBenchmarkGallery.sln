@@ -3,9 +3,40 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.33711.374
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BitBlazorUIBenchmark", "BitBlazorUIBenchmark", "{4BE8F411-1543-4A94-8F2C-6AE383473854}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitBlazorUIBenchmark.Server", "BitBlazorUIBenchmark\BitBlazorUIBenchmark\Server\BitBlazorUIBenchmark.Server.csproj", "{D4D790CC-628D-4832-B21D-22C4D733E3DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitBlazorUIBenchmark.Client", "BitBlazorUIBenchmark\BitBlazorUIBenchmark\Client\BitBlazorUIBenchmark.Client.csproj", "{A5BC6B18-1943-4315-BAA5-C4A7C5ECFA19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitBlazorUIBenchmark.Shared", "BitBlazorUIBenchmark\BitBlazorUIBenchmark\Shared\BitBlazorUIBenchmark.Shared.csproj", "{C22FC03A-45D9-41CB-91FA-9D2A301760EE}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4D790CC-628D-4832-B21D-22C4D733E3DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D790CC-628D-4832-B21D-22C4D733E3DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D790CC-628D-4832-B21D-22C4D733E3DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D790CC-628D-4832-B21D-22C4D733E3DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5BC6B18-1943-4315-BAA5-C4A7C5ECFA19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5BC6B18-1943-4315-BAA5-C4A7C5ECFA19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5BC6B18-1943-4315-BAA5-C4A7C5ECFA19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5BC6B18-1943-4315-BAA5-C4A7C5ECFA19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C22FC03A-45D9-41CB-91FA-9D2A301760EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C22FC03A-45D9-41CB-91FA-9D2A301760EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C22FC03A-45D9-41CB-91FA-9D2A301760EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C22FC03A-45D9-41CB-91FA-9D2A301760EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D4D790CC-628D-4832-B21D-22C4D733E3DB} = {4BE8F411-1543-4A94-8F2C-6AE383473854}
+		{A5BC6B18-1943-4315-BAA5-C4A7C5ECFA19} = {4BE8F411-1543-4A94-8F2C-6AE383473854}
+		{C22FC03A-45D9-41CB-91FA-9D2A301760EE} = {4BE8F411-1543-4A94-8F2C-6AE383473854}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FB982984-4ECD-41B3-B3E8-62AA4A37C919}
