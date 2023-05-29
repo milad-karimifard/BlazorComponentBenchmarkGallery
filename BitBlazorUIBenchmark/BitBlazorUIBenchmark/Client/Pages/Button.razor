@@ -1,0 +1,11 @@
+﻿@page "/Button"
+
+<h1>Button Component</h1>
+
+<BitButton IsEnabled="true" OnClick="() => Counter++">
+    Primary (@Counter)
+</BitButton>
+
+@code {
+    public int Counter;
+}
